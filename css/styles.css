@@ -1,0 +1,181 @@
+*,
+*:after,
+*:before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0rem;
+    padding: 0rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: normal;
+}
+
+body,
+.mainContainer {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    color: #000;
+    overflow-x: hidden;
+    font-family: "Roboto Condensed", serif;
+    font-size: 1rem;
+    padding: 1rem;
+}
+
+.mainContainer {
+    background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
+    border-radius: 1rem;
+}
+
+.topContainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 1rem;
+}
+
+.topContainer .aboutMe {
+    color: #fff;
+    font-size: 1.3rem;
+    margin: 0.5rem;
+    padding: 0.5rem;
+}
+
+.topContainer .aboutMe h3,
+.midContainer h3 {
+    line-height: 2rem;
+}
+
+.topContainer .aboutMe h3 a,
+.midContainer h3 a {
+    color: #fff;
+}
+
+.topContainer .aboutMe h3 a:hover,
+.midContainer h3 a:hover,
+footer .midPart__footer a:hover {
+    text-decoration-line: none;
+}
+
+.topContainer figure {
+    margin: 0.5rem;
+}
+
+.topContainer figure img {
+    width: 180px;
+    height: auto;
+    padding: 0.3rem;
+    background-color: #fff;
+    border-radius: 100%;
+}
+
+.midContainer {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    padding: 1rem;
+    color: #fff;
+    font-size: 1.3rem;
+}
+
+.midContainer {
+    margin: 0.5rem;
+    padding: 0.5rem;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 0.5rem;
+    margin: 0.5rem;
+    font-family: 'Ubuntu Mono', monospace;
+    font-size: 1rem;
+}
+
+footer .leftPart__footer {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+footer .leftPart__footer strong span {
+    font-size: 1.6rem;
+}
+
+footer .midPart__footer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-end;
+    margin: 0rem 4rem;
+}
+
+footer .midPart__footer a {
+    color: #000;
+}
+
+footer .rightPart__footer {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+footer .rightPart__footer p:last-child span a {
+    font-size: 1.5rem;
+    text-decoration-line: none;
+    color: #000;
+    padding: 0.5rem 1rem 0.5rem 0rem;
+}
+
+footer .rightPart__footer p:last-child span a:hover {
+    color: #eeeeee;
+}
+
+@media screen and (max-width: 320px) {
+    /* for small mobile screens */
+
+}
+
+@media screen and (min-width: 321px) and (max-width: 425px) {
+    /* for max mobile screens */
+
+}
+
+@media screen and (min-width: 426px) and (max-width: 768px) {
+    /* for  tablets screens */
+
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    /* For small laptop screens */
+
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1440px) {
+    /* for normal laptop screens */
+
+}
+
+@media screen and (min-width: 1441px) {
+    /* for large monitor screens */
+
+}
