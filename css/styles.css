@@ -166,11 +166,21 @@ footer .rightPart__footer p:last-child span a:hover {
         width: 150px;
     }
 
+    .topContainer .aboutMe h3 a:hover,
+    .midContainer h3 a:hover,
+    footer .midPart__footer a:hover {
+        text-decoration-line: underline;
+    }
+
     footer {
         flex-direction: column-reverse;
     }
 
     footer .midPart__footer {
         margin: 1rem 0rem;
+    }
+
+    footer .rightPart__footer p:last-child span a:hover {
+        color: #000;
     }
 }
