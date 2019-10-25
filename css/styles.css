@@ -126,7 +126,7 @@ footer .midPart__footer {
     flex-wrap: wrap;
     justify-content: center;
     align-items: flex-end;
-    margin: 0rem 4rem;
+    margin: 0.5rem 4rem;
 }
 
 footer .midPart__footer a {
@@ -150,32 +150,27 @@ footer .rightPart__footer p:last-child span a:hover {
     color: #eeeeee;
 }
 
-@media screen and (max-width: 320px) {
-    /* for small mobile screens */
+@media screen and (min-width: 320px) and (max-width: 640px) {
+    /* smartphones, iPhone, portrait 480x320 phones */
 
-}
+    .topContainer {
+        flex-direction: column-reverse;
+    }
 
-@media screen and (min-width: 321px) and (max-width: 425px) {
-    /* for max mobile screens */
+    .topContainer .aboutMe,
+    .midContainer {
+        font-size: 1rem;
+    }
 
-}
+    .topContainer figure img {
+        width: 150px;
+    }
 
-@media screen and (min-width: 426px) and (max-width: 768px) {
-    /* for  tablets screens */
+    footer {
+        flex-direction: column-reverse;
+    }
 
-}
-
-@media screen and (min-width: 769px) and (max-width: 1024px) {
-    /* For small laptop screens */
-
-}
-
-@media screen and (min-width: 1025px) and (max-width: 1440px) {
-    /* for normal laptop screens */
-
-}
-
-@media screen and (min-width: 1441px) {
-    /* for large monitor screens */
-
+    footer .midPart__footer {
+        margin: 1rem 0rem;
+    }
 }
